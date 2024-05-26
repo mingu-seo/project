@@ -1,0 +1,6 @@
+.apt*
+.settings/
+target/
+workspace_spring
+.classpath
+.project
