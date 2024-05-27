@@ -37,7 +37,7 @@ public class MemberController {
 	@GetMapping("/member/logout.do")
 	public String logout(HttpSession sess, Model model) {
 		sess.invalidate();
-		model.addAttribute("msg", "로그아웃되었습니다.");
+		model.addAttribute("msg", "로그아웃");
 		model.addAttribute("url", "/index.do");
 		return "common/alert";
 	}
