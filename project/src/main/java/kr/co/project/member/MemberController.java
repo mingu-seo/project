@@ -18,7 +18,7 @@ public class MemberController {
 	
 	@GetMapping("/member/login.do")
 	public void login() {
-		
+		// 새로운 작업
 	}
 	
 	@PostMapping("/member/login.do")
